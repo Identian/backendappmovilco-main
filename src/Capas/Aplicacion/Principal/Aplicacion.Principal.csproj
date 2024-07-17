@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Dominio\Interfaz\Dominio.Interfaz.csproj" />
+    <ProjectReference Include="..\..\Transversal\Mapeo\Transversal.Mapeo.csproj" />
+    <ProjectReference Include="..\Interfaz\Aplicacion.Interfaz.csproj" />
+  </ItemGroup>
+
+</Project>

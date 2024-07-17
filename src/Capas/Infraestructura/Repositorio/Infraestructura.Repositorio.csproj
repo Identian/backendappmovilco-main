@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.1.35" />
+    <PackageReference Include="RestSharp" Version="111.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Transversal\Comun\Transversal.Comun.csproj" />
+    <ProjectReference Include="..\..\Transversal\Mapeo\Transversal.Mapeo.csproj" />
+    <ProjectReference Include="..\Datos\Infraestructura.Datos.csproj" />
+    <ProjectReference Include="..\Interfaz\Infraestructura.Interfaz.csproj" />
+  </ItemGroup>
+
+</Project>
